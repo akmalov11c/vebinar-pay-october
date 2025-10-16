@@ -26,6 +26,8 @@ const GAS_URL =
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
+  form.querySelectorAll("input").forEach((input) => input.blur());
+
   const fd = new FormData(form);
 
   await fetch(GAS_URL, { method: "POST", body: fd });

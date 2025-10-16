@@ -205,6 +205,17 @@ p.big {
   font-size: 10px;
 }
 
+.prices {
+  display: flex;
+  flex-direction: column;
+}
+
+.old-price {
+  margin: 0;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
 .plan-name-pay {
   color: var(--gold);
   margin: 0;
