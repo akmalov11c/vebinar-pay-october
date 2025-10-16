@@ -28,13 +28,8 @@ form.addEventListener("submit", async (e) => {
 
   const fd = new FormData(form);
 
-  try {
-    await fetch(GAS_URL, { method: "POST", body: fd });
-    modal.classList.remove("open");
-    window.location.href = `plan.html?type=${fd.get("plan").toLowerCase()}`;
-    form.reset();
-  } catch (err) {
-    alert("Xatolik yuz berdi!");
-    console.error(err);
-  }
+  await fetch(GAS_URL, { method: "POST", body: fd });
+  modal.classList.remove("open");
+  window.location.href = `plan.html?type=${fd.get("plan").toLowerCase()}`;
+  form.reset();
 });
