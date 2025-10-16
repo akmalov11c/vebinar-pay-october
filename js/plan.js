@@ -1,7 +1,7 @@
 const plans = {
-  premium: { title: "Premium", price: "50.000.000 so'm" },
-  biznes: { title: "Biznes", price: "50.000.000 so'm" },
-  vip: { title: "V.I.P", price: "50.000.000 so'm" },
+  premium: { title: "Premium", price: "15.000.000 so'm" },
+  biznes: { title: "Biznes", price: "25.000.000 so'm" },
+  vip: { title: "V.I.P", price: "100.000.000 so'm" },
 };
 
 const params = new URLSearchParams(window.location.search);
