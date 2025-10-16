@@ -21,7 +21,7 @@ modal.addEventListener("click", (e) => {
 });
 
 const GAS_URL =
-  "https://script.google.com/macros/s/AKfycbxNOl7s9FdoeUly8H59OJd-8jXpGYieZkgEjEn97ibfhklwp2gTPVLsRk4e51CxpI6cPQ/exec";
+  "https://script.google.com/macros/s/AKfycbxtPqmVY7Y2ID9l4rhMip4YJ3n_AJAIQy60nZ8amX0AAsKpoMLyRZkh95FlU52xztPq/exec";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
